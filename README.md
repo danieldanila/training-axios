@@ -1,4 +1,4 @@
-﻿# Training Axios 2024
+﻿# Training Axios
 
 **Parcurgeți pașii din „Configurația inițială pentru Trainingul Axios.pdf” pentru a vă configura proiectul inițial** de pe care o să începem să lucrăm la training.
 
