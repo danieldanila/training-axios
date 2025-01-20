@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+        <title>Training Axios - Admin</title>
+    </head>
+    <body>
+        <nav>
+            <ul class="navbar">
+                <p>Training Axios</p>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./signup.html">Sign up</a></li>
+                <li><a href="./admin.html">Admin</a></li>
+                <li><a href="./myprofile.html">My Profile</a></li>
+            </ul>
+        </nav>
+        <section class="container">
+            <p class="container-title">Admin</p>
+            <div class="form-button">
+                <button onclick="fillTable(document.getElementById('container-table'), false)">
+                    Get All Users
+                </button>
+            </div>
+            <table id="container-table">
+                <tr>
+                    <th>id</th>
+                    <th>email</th>
+                    <th>password</th>
+                    <th>department</th>
+                    <th>options</th>
+                </tr>
+            </table>
+        </section>
+    </body>
+
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</html>
